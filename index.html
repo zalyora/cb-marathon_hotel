@@ -14,11 +14,11 @@
     <div class="wrapper">
         <header>
             <a href="/" class="logotype">
-                <img src="./assets/images/DecenterAds-logo-white.svg" alt="logo image">
+                <img src="./assets/images/Logo-small.svg" alt="logo image">
             </a>
             <h1>Готель біля моря</h1>
             <p>Сучасний готель з котеджами і власним пляжем</p>
-            <button class="btn">Переглянути</button>
+            <button class="btn open_form">Переглянути</button>
         </header>
         <main>
             <section class="info container">
@@ -114,17 +114,51 @@
                     При цьому ви отримуєте максимум задоволення і гарантовану безпеку: пансіонат охороняється цілодобово, стійка реєстрації працює без перерв. Намагатимемося виконати будь-які ваші побажання, щоб ви залишились задоволені.
                 </p>
             </section>
-            <section class="order">
-                <div class="to_form">
+            <section class="book_room">
+                <div class="book_room_container">
                     <h2>Забронювати номер
                     </h2>
                     <p class="description centered">
                         Ми приймаємо замовлення цілодобово та без вихідних. Наберіть номер і скажіть, у яких апартаментах хочете поселитися.  Або заповніть всі поля форми та надішліть заявку. Обов’язково вкажіть ваш телефон та адресу електронної пошти для зворотного зв’язку.
                     </p>
-                    <button class="btn">Переглянути</button>
+                    <button class="btn open_form">Переглянути</button>
                 </div>
             </section>
+            <section class="map_section">
+                <h2>Відпочинок біля моря в міжсезоння</h2>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10990.230050716833!2d30.7552435!3d46.477272!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6317290fac97b%3A0x2c5b62183f902318!2z0J_QsNGA0LrQvtCy0LrQsCDQm9Cw0L3QttC10YDQvtC9INCX0L7QvdCwLTI!5e0!3m2!1suk!2sua!4v1683979765811!5m2!1suk!2sua"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <footer>
+                <div class="footer_content">
+                    <a href="/" class="logotype">
+                        <img src="./assets/images/DecenterAds-logo-white.svg" alt="logo image">
+                    </a>
+                    <p>Чудове місце для відпочинку і натхнення</p>
+                    <address>
+                        <span>Адреса: Одеська обл. смт. Початкова-іт, вулиця Початківців фронтенду, 25</span>
+                        <span>Номер телефону: <a href="tel:+380693696969">+38069 369 69 69</a></span>
+                        <span>Email: <a class="mailto" href="mailto:">support@hotel.com.ua</a></span>
+                    </address>
+                </div>
+            </footer>
         </main>
+
+        <div class="overlay">
+            <form action="#" class="callback_form">
+                <h2>Наш менеджер зв’яжеться з вами</h2>
+                <div class="form_wrap">
+                    <input type="text" placeholder="Ім’я">
+                    <input type="text" placeholder="Прізвище">
+                </div>
+                <div class="form_wrap">
+                    <input type="email" placeholder="Email">
+                    <input type="tel" placeholder="Номер телефону">
+                </div>
+                <button class="btn" type="submit">Відправити</button>
+            </form>
+        </div>
     </div>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>
